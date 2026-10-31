@@ -76,18 +76,13 @@ def analyze(
         'signals': {
             'reverse_match': {
                 'score': breakdown.reverse_match_score,
-                'max': 60,
+                'max': 70,
                 'detail': breakdown.reverse_match_detail,
             },
-            'account_age': {
-                'score': breakdown.account_age_score,
-                'max': 15,
-                'detail': breakdown.account_age_detail,
-            },
-            'first_time': {
-                'score': breakdown.first_time_score,
+            'severity': {
+                'score': breakdown.severity_score,
                 'max': 10,
-                'detail': breakdown.first_time_detail,
+                'detail': breakdown.severity_detail,
             },
             'sensitive_files': {
                 'score': breakdown.sensitive_files_score,
@@ -96,8 +91,18 @@ def analyze(
             },
             'cleanup_disguise': {
                 'score': breakdown.cleanup_disguise_score,
-                'max': 5,
+                'max': 10,
                 'detail': breakdown.cleanup_disguise_detail,
+            },
+            'account_age': {
+                'score': breakdown.account_age_score,
+                'max': 10,
+                'detail': breakdown.account_age_detail,
+            },
+            'first_time': {
+                'score': breakdown.first_time_score,
+                'max': 5,
+                'detail': breakdown.first_time_detail,
             },
         },
         'explanation': explanation,
@@ -157,16 +162,18 @@ def run_cli_mode(args):
     print(f'  {emoji}  Score: {bd.total_score} / 100 — {bd.risk_level} RISK')
     print()
     print('  Score Breakdown:')
-    print(f'    Fix reversal:           {bd.reverse_match_score:>2}/60  '
+    print(f'    Fix reversal:           {bd.reverse_match_score:>2}/70  '
           f'{bd.reverse_match_detail}')
-    print(f'    New account:            {bd.account_age_score:>2}/15  '
-          f'{bd.account_age_detail}')
-    print(f'    First-time contributor: {bd.first_time_score:>2}/10  '
-          f'{bd.first_time_detail}')
+    print(f'    Fix severity rating:    {bd.severity_score:>2}/10  '
+          f'{bd.severity_detail}')
     print(f'    Sensitive files:        {bd.sensitive_files_score:>2}/10  '
           f'{bd.sensitive_files_detail}')
-    print(f'    Cleanup disguise:       {bd.cleanup_disguise_score:>2}/5   '
+    print(f'    Cleanup disguise:       {bd.cleanup_disguise_score:>2}/10  '
           f'{bd.cleanup_disguise_detail}')
+    print(f'    New account:            {bd.account_age_score:>2}/10  '
+          f'{bd.account_age_detail}')
+    print(f'    First-time contributor: {bd.first_time_score:>2}/5   '
+          f'{bd.first_time_detail}')
     print()
     print('  Explanation:')
     for sentence in result['explanation'].split('. '):
