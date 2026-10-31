@@ -35,6 +35,7 @@ SECURITY_FILE_PATTERNS = [
     r'webhook', r'dispatch', r'fetch', r'download', r'upload',
     r'proxy', r'network', r'client', r'server', r'api', r'endpoint',
     r'cors', r'sql', r'query', r'db', r'handler',
+    r'install', r'deps', r'build', r'package',
 ]
 
 # ── PR title patterns suggesting a disguised change ─────────────
