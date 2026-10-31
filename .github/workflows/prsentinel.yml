@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────────────────────────
+# PRSentinel — GitHub Action
+#
+# Runs on every pull request and posts a security review comment.
+# Install: copy this file to .github/workflows/prsentinel.yml
+# ─────────────────────────────────────────────────────────────────
+
+name: 🛡️ PRSentinel Security Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  prsentinel:
+    name: Security scan
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the repo (includes fixes.json and the engine)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3. No pip install needed — engine uses only stdlib!
+
+      # 4. Run PRSentinel in GitHub mode
+      - name: Run PRSentinel
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: add your LLM API key for AI explanations
+          # GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python -m prsentinel --github
+
