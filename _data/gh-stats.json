@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:44:44.616060+00:00",
+  "generated_at": "2026-11-18T11:32:01.737055+00:00",
   "repos": [
     {
       "slug": "sebastienrousseau/pain001",
@@ -43,11 +43,11 @@
       "stars": 64,
       "forks": 14,
       "watchers": 2,
-      "open_issues": 12,
+      "open_issues": 0,
       "language": "Python",
       "license": "NOASSERTION",
       "default_branch": "main",
-      "pushed_at": "2026-11-14T05:04:44Z",
+      "pushed_at": "2026-11-18T09:58:18Z",
       "created_at": "2023-11-08T09:38:15Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/bankstatementparser"
@@ -200,7 +200,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-17T04:51:21Z",
+      "pushed_at": "2026-11-18T04:50:08Z",
       "created_at": "2023-03-14T08:46:48Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/static-site-generator"
@@ -217,7 +217,7 @@
       "language": "C++",
       "license": "AGPL-3.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-17T10:17:41Z",
+      "pushed_at": "2026-11-18T10:14:54Z",
       "created_at": "2026-01-28T17:52:31Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/euxis"
@@ -230,7 +230,7 @@
       "stars": 11,
       "forks": 5,
       "watchers": 2,
-      "open_issues": 0,
+      "open_issues": 2,
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
@@ -264,11 +264,11 @@
       "stars": 9,
       "forks": 2,
       "watchers": 1,
-      "open_issues": 5,
+      "open_issues": 1,
       "language": "TypeScript",
       "license": "NOASSERTION",
       "default_branch": "main",
-      "pushed_at": "2026-11-16T20:35:29Z",
+      "pushed_at": "2026-11-17T13:01:46Z",
       "created_at": "2022-05-13T11:32:00Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/crypto-service"
@@ -298,11 +298,11 @@
       "stars": 83,
       "forks": 16,
       "watchers": 4,
-      "open_issues": 0,
+      "open_issues": 1,
       "language": "Shell",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-17T10:05:55Z",
+      "pushed_at": "2026-11-18T10:23:25Z",
       "created_at": "2015-02-16T14:15:57Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/dotfiles"
