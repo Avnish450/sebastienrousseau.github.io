@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T11:32:01.737055+00:00",
+  "generated_at": "2026-11-19T11:30:51.648885+00:00",
   "repos": [
     {
       "slug": "sebastienrousseau/pain001",
@@ -13,7 +13,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-16T19:16:04Z",
+      "pushed_at": "2026-11-18T14:59:54Z",
       "created_at": "2023-03-11T00:55:57Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/pain001"
@@ -30,7 +30,7 @@
       "language": "Python",
       "license": "NOASSERTION",
       "default_branch": "main",
-      "pushed_at": "2026-11-09T08:03:28Z",
+      "pushed_at": "2026-11-18T14:59:54Z",
       "created_at": "2026-03-21T14:46:50Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/pacs008"
@@ -42,12 +42,12 @@
       "homepage": "https://docs.bankstatementparser.com",
       "stars": 64,
       "forks": 14,
-      "watchers": 2,
+      "watchers": 1,
       "open_issues": 0,
       "language": "Python",
       "license": "NOASSERTION",
       "default_branch": "main",
-      "pushed_at": "2026-11-18T09:58:18Z",
+      "pushed_at": "2026-11-18T21:46:59Z",
       "created_at": "2023-11-08T09:38:15Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/bankstatementparser"
@@ -60,11 +60,11 @@
       "stars": 1,
       "forks": 0,
       "watchers": 1,
-      "open_issues": 3,
+      "open_issues": 4,
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-16T05:53:25Z",
+      "pushed_at": "2026-11-19T05:33:13Z",
       "created_at": "2024-06-01T09:02:40Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/nalufx"
@@ -98,7 +98,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-16T09:05:15Z",
+      "pushed_at": "2026-11-18T15:00:03Z",
       "created_at": "2023-11-18T19:33:06Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/kyberlib"
@@ -115,7 +115,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-16T09:05:18Z",
+      "pushed_at": "2026-11-18T15:00:02Z",
       "created_at": "2023-02-10T22:43:19Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/hsh"
@@ -149,7 +149,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-09T09:03:31Z",
+      "pushed_at": "2026-11-18T15:00:01Z",
       "created_at": "2023-02-09T08:48:09Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/dtt"
@@ -166,7 +166,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-16T05:52:32Z",
+      "pushed_at": "2026-11-18T15:00:03Z",
       "created_at": "2023-02-21T12:03:26Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/libmake"
@@ -200,7 +200,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-18T04:50:08Z",
+      "pushed_at": "2026-11-19T04:44:35Z",
       "created_at": "2023-03-14T08:46:48Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/static-site-generator"
@@ -213,11 +213,11 @@
       "stars": 1,
       "forks": 0,
       "watchers": 0,
-      "open_issues": 1,
+      "open_issues": 0,
       "language": "C++",
       "license": "AGPL-3.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-18T10:14:54Z",
+      "pushed_at": "2026-11-19T10:23:30Z",
       "created_at": "2026-01-28T17:52:31Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/euxis"
@@ -234,7 +234,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-17T07:46:11Z",
+      "pushed_at": "2026-11-18T15:00:05Z",
       "created_at": "2026-02-18T18:28:14Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/noyalib"
@@ -268,7 +268,7 @@
       "language": "TypeScript",
       "license": "NOASSERTION",
       "default_branch": "main",
-      "pushed_at": "2026-11-17T13:01:46Z",
+      "pushed_at": "2026-11-18T16:27:55Z",
       "created_at": "2022-05-13T11:32:00Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/crypto-service"
@@ -298,11 +298,11 @@
       "stars": 83,
       "forks": 16,
       "watchers": 4,
-      "open_issues": 1,
+      "open_issues": 0,
       "language": "Shell",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-18T10:23:25Z",
+      "pushed_at": "2026-11-19T07:51:55Z",
       "created_at": "2015-02-16T14:15:57Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/dotfiles"
@@ -336,7 +336,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-07T06:37:48Z",
+      "pushed_at": "2026-11-18T15:58:14Z",
       "created_at": "2022-12-30T09:06:35Z",
       "archived": true,
       "html_url": "https://github.com/sebastienrousseau/mini-functions"
