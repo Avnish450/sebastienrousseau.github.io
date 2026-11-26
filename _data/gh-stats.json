@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T12:44:13.050246+00:00",
+  "generated_at": "2026-11-26T12:18:57.382749+00:00",
   "repos": [
     {
       "slug": "sebastienrousseau/pain001",
       "name": "pain001",
       "description": "Generate and validate ISO 20022 payment files (pain.001 v03-v12, pain.008) from CSV, SQLite, JSON, or Parquet. XSD and SEPA scheme validation, pain.002 and camt.053 parsers and builders, plus a CLI, REST API, MCP server, and LSP server for editor diagnostics. 🐍",
       "homepage": "http://docs.pain001.com/",
-      "stars": 49,
+      "stars": 50,
       "forks": 17,
       "watchers": 5,
       "open_issues": 1,
@@ -200,7 +200,7 @@
       "language": "Rust",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-25T12:07:42Z",
+      "pushed_at": "2026-11-26T04:44:46Z",
       "created_at": "2023-03-14T08:46:48Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/static-site-generator"
@@ -213,11 +213,11 @@
       "stars": 1,
       "forks": 0,
       "watchers": 0,
-      "open_issues": 4,
+      "open_issues": 1,
       "language": "C++",
       "license": "AGPL-3.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-23T14:36:10Z",
+      "pushed_at": "2026-11-26T09:54:40Z",
       "created_at": "2026-01-28T17:52:31Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/euxis"
@@ -298,11 +298,11 @@
       "stars": 83,
       "forks": 16,
       "watchers": 4,
-      "open_issues": 3,
+      "open_issues": 0,
       "language": "Shell",
       "license": "Apache-2.0",
       "default_branch": "main",
-      "pushed_at": "2026-11-25T12:42:41Z",
+      "pushed_at": "2026-11-26T11:28:01Z",
       "created_at": "2015-02-16T14:15:57Z",
       "archived": false,
       "html_url": "https://github.com/sebastienrousseau/dotfiles"
